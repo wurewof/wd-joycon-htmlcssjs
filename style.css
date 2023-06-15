@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tampil-sini h1{
+    text-align: center;
+    font-size: 4rem;
+    color: #ffffff;
+    padding: 1rem;
+    margin: 2rem 0;
+    background-color: rgb(240, 201, 221);
+    border-radius: 2.5rem;
+    box-shadow: 0 .5rem 1 rem rgba(0, 0, 0, .1);
+}
+
+.tombol .btn-atas h3{
+    text-align: center;
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 1rem;
+    margin: 2rem 0;
+    background-color: rgb(240, 201, 221);
+    border-radius: 2.5rem;
+    box-shadow: 0 .5rem 1 rem rgba(0, 0, 0, .1);
+    flex: .1 .1 1rem;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.box-container .box{
+    flex: .1 .1 1rem;
+    border-radius: 0.5rem;
+    background: #f7c5d0;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border: .1rem solid rgba(0, 0, 0, .2);
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.box-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.box-container1 .box1{
+    flex: 1 1 1rem;
+    border-radius: 0.5rem;
+    background: #f7c5d0;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    border: .1rem solid rgba(0, 0, 0, .2);
+    text-align: center;
+    padding: 2rem;
+}
